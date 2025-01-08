@@ -9,7 +9,7 @@ html {
 
 .container {
   display: inline-flex;
-  
+  padding: 20px;
 }
 
 .logo {
@@ -19,4 +19,17 @@ html {
 
 nav {
   margin-top: 4rem;
+}
+nav a {
+  text-decoration: none;
+  color: #cdd6f4;
+
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.about {
+  margin: 20%;
 }
