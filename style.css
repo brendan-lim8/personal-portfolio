@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
+
+/* Global */
 html {
   font-family: JetBrains Mono;
   color: #b4befe;
-  background-color: #1e1e2e;
 }
 header {
   position: absolute;
@@ -15,13 +16,19 @@ body {
   height: 95vh;
   align-items: center;
   justify-content: center;
+  background-repeat: repeat;
 }
 .window {
   width: 800px;
   border-radius: 20px;
   background-color: #11111b;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  font-size: 20px
+  font-size: 20px;
+}
+
+.window-content {
+  display: inline-flex;
+  padding: 20px;
 }
 
 .windowbar {
@@ -34,11 +41,13 @@ body {
 .window-controls {
   display: flex;
   gap: 6px;
+  align-self: flex-end;
+  margin-bottom: 4px;
 }
   
 .control {
-  width: 12px;
-  height: 12px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
 }
   
@@ -54,15 +63,25 @@ body {
   background-color: #27c93f;
 }
   
+.back-button{
+  margin-left: auto;
+}
+
+.back-button-style {
+  background-color: transparent;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: JetBrains Mono;
+  font-size: 15px;
+}
 .window-title {
   font-size: 14px;
   color: #333;
 }
   
-.window-content {
-  display: inline-flex;
-}
 
+/*Home Page*/
 .logo {
   color: #94e2d5;
 }
@@ -80,6 +99,7 @@ nav a:hover, header a:hover {
   color: #eba0ac;
 }
 
+/* About Page */
 .about {
   display: flex;
   align-items: center;
@@ -109,7 +129,7 @@ nav a:hover, header a:hover {
   gap: 10px; 
   width: 80%;
   max-width: 1000px;
-  padding: 20px;
+ 
 }
 .pictures img {
   width: 100%;
@@ -117,5 +137,10 @@ nav a:hover, header a:hover {
   object-fit: cover; 
   border-radius: 8px; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/*Projects Page*/
+.projects {
+  gap: 20px;
 }
 
