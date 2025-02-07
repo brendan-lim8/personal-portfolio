@@ -18,6 +18,7 @@ body {
   justify-content: center;
   background-repeat: repeat;
 }
+
 .window {
   width: 700px;
   border-radius: 20px;
@@ -25,7 +26,10 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   font-size: 16px;
 }
-
+.fetch {
+  font-family: JetBrains Mono;
+  font-size: 16px;
+}
 .window-content {
   display: inline-flex;
   padding: 20px;
@@ -148,3 +152,12 @@ nav a:hover, header a:hover {
   margin-bottom: 20px;
 }
 
+/*Stuff Page*/
+
+.link {
+  color: #b4befe;
+}
+
+.link:hover {
+  color: #eba0ac;
+}
