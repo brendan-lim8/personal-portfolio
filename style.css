@@ -23,7 +23,7 @@ body {
   border-radius: 20px;
   background-color: #11111b;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .window-content {
@@ -120,7 +120,6 @@ nav a:hover, header a:hover {
   gap: 20px;
 }
 
-
 /*Pictures Page*/
 .pictures {
   gap: 10px;
@@ -135,10 +134,16 @@ nav a:hover, header a:hover {
 }
 
 .pictures-page {
-  height: 140vh;
+  height: 130vh;
 }
 /*Projects Page*/
-.projects {
+
+.projects-page {
+  height: 170vh;
+}
+.projects-window {
   gap: 20px;
+  display: block;
+  padding: 20px;
 }
 
