@@ -19,11 +19,11 @@ body {
   background-repeat: repeat;
 }
 .window {
-  width: 800px;
+  width: 600px;
   border-radius: 20px;
   background-color: #11111b;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .window-content {
@@ -113,7 +113,7 @@ nav a:hover, header a:hover {
   padding: 20px;
 }
 .bio {
-  font-size: 20px;
+  font-size: 15px;
 }
 .me {
   border-radius: 20px;
