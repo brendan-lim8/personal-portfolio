@@ -145,5 +145,6 @@ nav a:hover, header a:hover {
   gap: 20px;
   display: block;
   padding: 20px;
+  margin-bottom: 20px;
 }
 
