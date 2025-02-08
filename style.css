@@ -161,3 +161,7 @@ nav a:hover, header a:hover {
 .link:hover {
   color: #eba0ac;
 }
+
+.stuff-page {
+  height: 150vh;
+}
