@@ -16,7 +16,7 @@ body {
   height: 95vh;
   align-items: center;
   justify-content: center;
-  background-repeat: repeat;
+  background-color: #313244;
   background-size: cover;
 }
 
@@ -24,7 +24,7 @@ body {
   width: 700px;
   border-radius: 20px;
   background-color: #11111b;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
   font-size: 16px;
 }
 .fetch {
